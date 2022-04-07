@@ -1,0 +1,47 @@
+form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+
+}
+tbody{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left:4%;
+}
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+th{
+    display: flex;
+    flex-direction: column;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    width: 12rem;
+    height:18rem;
+}
+.all-books{
+    margin-left:4%;
+}
